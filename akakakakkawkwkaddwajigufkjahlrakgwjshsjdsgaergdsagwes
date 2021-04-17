@@ -1,0 +1,25 @@
+crash = function()
+local newframe = game.StarterGui.MainScreenGui.AreYouSure:Clone()
+
+newframe.Parent = game.Players.LocalPlayer.PlayerGui
+    end
+
+while true do
+wait(.000000000000001)
+crash()
+crash()
+crash()
+crash()
+crash()
+crash()
+crash()
+crash()
+crash()
+crash()
+crash()
+crash()
+crash()
+crash()
+crash()
+crash()
+end
