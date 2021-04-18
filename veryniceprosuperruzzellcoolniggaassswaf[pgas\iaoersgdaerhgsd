@@ -1,0 +1,4 @@
+game:GetService("RunService").Stepped:connect(function()
+    for i = 1, 10 do
+        game:GetService("ReplicatedStorage").MainEvent:FireServer("GUI_CHECK",nil,("remote breaker :D"):rep(250))
+    end
